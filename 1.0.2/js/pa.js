@@ -1,0 +1,1 @@
+!function(){var a=decodeURIComponent(location.search.split("=")[1]);$("#code").qrcode({width:200,height:200,text:utf16to8(a)}).attr("title",a),$("#title").val(a).attr("title",a).bind("click",function(){this.select()})[0].select()}();
